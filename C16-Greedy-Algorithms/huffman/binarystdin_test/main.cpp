@@ -1,24 +1,22 @@
 /*************************************************************************
-	> File Name: main.cpp
-	> Author: 
-	> Mail: 
-	> Created Time: Wed 14 Jan 2015 08:33:11 PM CST
+        > File Name: main.cpp
+        > Author:
+        > Mail:
+        > Created Time: Wed 14 Jan 2015 08:33:11 PM CST
  ************************************************************************/
 
-#include<iostream>
 #include "../BinaryStdIn.h"
+#include <iostream>
 using namespace std;
 
-int main()
-{
-    string filename = "data";
+int main() {
+  string filename = "data";
 
-    BinaryStdIn binaryStdIn(filename);
+  BinaryStdIn binaryStdIn(filename);
 
-    cout << binaryStdIn.readInt() << endl;
+  cout << binaryStdIn.readInt() << endl;
 
-    binaryStdIn.close();
+  binaryStdIn.close();
 
-    return 0;
+  return 0;
 }
-
